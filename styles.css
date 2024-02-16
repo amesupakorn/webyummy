@@ -149,7 +149,12 @@ body{
 /* -------------------------------------------------------------- */
 .carousel-item img {
     filter: brightness(80%);
+    height: 830px;
+
   }
+.carousel-inner{
+    height: 80%;
+}
 
 .head{
     margin-top: 50px;
@@ -267,7 +272,7 @@ body{
 
     .head{
         width: 40%;
-        top: 15%;
+        top: 30%;
         margin-left: 30%;
         text-align: center;
     }
@@ -284,18 +289,27 @@ body{
     .custom-btn{
         width: 150px;
     }
-
+    .carousel-control-prev-icon{
+        margin-top: 70%;
+     }
+     .carousel-control-next-icon{
+        margin-top: 70%;
+     }
 
     .carousel-inner{
         height: 100%;
     }
+
+    .carousel-item img {
+        height: 700px;
+      }
 }
 
 
-@media (max-width: 900px) { 
+@media (max-width: 950px) { 
     .head{
         width: 40%;
-        top: 20%;
+        top: 24%;
         margin-left: 30%;
         text-align: center;
     }
@@ -312,35 +326,39 @@ body{
         padding: 2px 5px;
         height: 30px;
         width: 120px;
-        font-size: 10px;
+        font-size: 13px;
     }
     .carousel-inner{
         height: 100%;
     }
+    .carousel-item img {
+        height: 500px;
+      }
 
 }
 
 @media (max-width: 699px) { 
     .head{
-        width: 40%;
-        top: 10%;
-        margin-left: 30%;
+        width: 50%;
+        top: 19%;
+        margin-left: 26%;
         text-align: center;
     }
     .head img{
         width: auto;
-        height: 40px;
+        height: 60px;
     }
 
     .head h1{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .custom-btn{
+        border: 1px solid #ffffff;
         padding: 2px 5px;
-        height: 15px;
-        width: 50px;
-        font-size: 5px;
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
     }
     .carousel-inner{
         height: 100%;
@@ -352,4 +370,47 @@ body{
     .carousel-control-next-icon{
        margin-top: 80%;
     }
+    .carousel-item img {
+        height: 400px;
+      }
+}
+
+@media (max-width: 499px) { 
+    .head{
+        width: 50%;
+        top: 13%;
+        margin-left: 26%;
+        text-align: center;
+    }
+    .head img{
+        width: auto;
+        height: 60px;
+    }
+
+    .head h1{
+        font-size: 6px;
+    }
+
+    .custom-btn{
+        border: 1px solid;
+        padding: 2px 5px;
+        height: 20px;
+        width: 80px;
+        font-size: 7px;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+
+    .carousel-control-prev-icon{
+       margin-top: 90%;
+    }
+    .carousel-control-next-icon{
+       margin-top: 90%;
+    }
+
+    .carousel-item img {
+        height: 350px;
+      }
+
 }
