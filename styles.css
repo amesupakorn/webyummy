@@ -391,7 +391,7 @@ body{
 @media screen and (max-width: 499px) { 
     .head{
         width: 50%;
-        top: 12%;
+        top: 10%;
         margin-left: 26%;
         text-align: center;
     }
@@ -423,8 +423,16 @@ body{
     }
 
     .carousel-item img {
-        height: 320px;
+        height: 300px;
       }
 
 }
 
+
+
+@media screen and (max-width: 399px) { 
+
+    .carousel-item img {
+        height: 280px;
+      }
+}
