@@ -292,6 +292,7 @@ body{
   .recipes .image {
 
     height: 200px;
+  
     background: url("image_home/4.png") fixed center;
     background-size: cover;
 }
@@ -574,6 +575,9 @@ footer img{
       width: 1000px;
       height: 400px;
     }
+    .recipes .image {
+      background-image: url(image_menu/02.jpeg);
+    }
 }
 
 @media screen and (max-width: 999px) { 
@@ -610,6 +614,9 @@ footer img{
       }
       .text h1{
         font-size: 28px;
+      }
+      .recipes .image {
+        background-image: url(image_menu/02.jpeg);
       }
     
 }
