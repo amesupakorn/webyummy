@@ -221,14 +221,19 @@ body{
 
 #OurStory {
     padding: 100px 0;
+    font-size: 18px;
   }
+
+#OurStory .comp-title{
+    letter-spacing: 8px;
+
+}
   #OurStory .quote {
     color: #ADADAD;
-    margin: 0.5rem 0 3rem;
+    margin: 0.5rem 1rem;
   }
   #OurStory .quote strong {
     color: #202020;
-    font-style: italic;
     font-weight: 700;
   }
   #OurStory .reserve-btn {
@@ -247,9 +252,9 @@ body{
     color: #202020;
   }
   #OurStory .video-img {
-    max-width: 400px;
+    max-width: 450px;
     height: 550px;
-    background: url("https://github.com/kenvantruong/hyper-restaurant/blob/master/public/img/Springtime-Chicken-Noodle-Pho-1.jpg?raw=true") no-repeat center;
+    background: url("image_menu/20.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
