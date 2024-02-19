@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Roboto+Mono&display=swap');
 
 html{
     background-color: #1a1a1a;
@@ -183,7 +184,7 @@ body{
     padding: 10px 20px;
     border: 2px solid #ffffff;
     border-radius: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: Noto Sans Thai, sans-serif; 
     font-weight: 500;
     background: transparent;
     cursor: pointer;
@@ -241,7 +242,7 @@ body{
     border: 1px solid #202020;
     text-align: center;
     padding: 20px 40px;
-    font-family: "Rozha One", serif;
+    font-family: Noto Sans Thai, sans-serif;
     text-decoration: none;
     color: #202020;
     text-transform: uppercase;
@@ -354,7 +355,7 @@ body{
     position: absolute;
     bottom: 0;
     margin: 0 auto;
-    font-family: "Rozha One", serif;
+    font-family: Noto Sans Thai, sans-serif;
     font-size: 1.5rem;
     background: #ffffff;
     height: 90px;
@@ -371,12 +372,12 @@ body{
   #SpecialMenu .box .title {
     display: block;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
   }
   #SpecialMenu .box .details {
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     text-align: center;
     line-height: 1.8;
     margin: 30px 0px;
@@ -405,7 +406,7 @@ body{
     padding: 10px 20px;
     border: 2px solid #ffffff;
     border-radius: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: Noto Sans Thai, sans-serif;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
