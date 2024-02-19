@@ -17,6 +17,7 @@ body{
     transition: all 200ms linear;
 }
 .container {
+
     display: flex;
     flex-direction: column; /* หรือ row ตามที่ต้องการ */
 }
