@@ -312,7 +312,8 @@ body{
     text-align: center;
   }
   #SpecialMenu .box {
-    background: #000000;
+    background: hsl(0, 0%, 8%);
+    border-radius: 3%;
     padding: 20px;
   }
   #SpecialMenu .box .box-img-one {
@@ -459,6 +460,8 @@ body{
 
 
 footer{
+    padding: 15px;
+    background-color: hsl(0, 0%, 9%);
     text-align: center;
 
 }
