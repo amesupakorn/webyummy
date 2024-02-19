@@ -732,4 +732,8 @@ footer img{
         letter-spacing: 2px;
   
       }
+      .carousel-item img {
+        height: 320px;
+      }
+
 }
