@@ -571,7 +571,7 @@ footer img{
 @media screen and (max-width: 1024px) { 
     .head{
         width: 50%;
-        top: 20%;
+        top: 18%;
         margin-left: 26%;
         text-align: center;
     }
@@ -587,7 +587,7 @@ footer img{
 @media screen and (max-width: 999px) { 
     .head{
         width: 40%;
-        top: 18%;
+        top: 28%;
         margin-left: 30%;
         text-align: center;
     }
@@ -624,6 +624,18 @@ footer img{
       }
     
 }
+
+
+
+@media screen and (max-width: 800px) { 
+  .head{
+      width: 40%;
+      top: 18%;
+      margin-left: 30%;
+      text-align: center;
+  }
+}
+
 
 @media screen and (max-width: 699px) { 
     .head{
@@ -669,6 +681,7 @@ footer img{
         font-size: 26px;
       }
 }
+
 
 @media screen and (max-width: 499px) { 
     .head{
