@@ -571,7 +571,7 @@ footer img{
 @media screen and (max-width: 1024px) { 
     .head{
         width: 50%;
-        top: 18%;
+        top: 20%;
         margin-left: 26%;
         text-align: center;
     }
@@ -587,7 +587,7 @@ footer img{
 @media screen and (max-width: 999px) { 
     .head{
         width: 40%;
-        top: 28%;
+        top: 18%;
         margin-left: 30%;
         text-align: center;
     }
@@ -633,6 +633,10 @@ footer img{
       top: 18%;
       margin-left: 30%;
       text-align: center;
+  }
+  iframe{
+    width: 680px;
+    height: 300px;
   }
 }
 
