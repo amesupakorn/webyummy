@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Roboto+Mono&display=swap');
+
 
 html{
     background-color: #1a1a1a;
@@ -184,7 +184,7 @@ body{
     padding: 10px 20px;
     border: 2px solid #ffffff;
     border-radius: 20px;
-    font-family: Noto Sans Thai, sans-serif; 
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
@@ -242,7 +242,7 @@ body{
     border: 1px solid #202020;
     text-align: center;
     padding: 20px 40px;
-    font-family: Noto Sans Thai, sans-serif;
+    font-family: "Rozha One", serif;
     text-decoration: none;
     color: #202020;
     text-transform: uppercase;
@@ -255,7 +255,7 @@ body{
   #OurStory .video-img {
     max-width: 450px;
     height: 550px;
-    background: url("image_menu/20.jpeg") no-repeat center;
+    background: url("../image_menu/20.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -292,8 +292,8 @@ body{
 
   .recipes .image {
 
-    height: 200px;
-  
+    height: 150px;
+    width: 100%;
     background: url("image_home/4.png") fixed center;
     background-size: cover;
 }
@@ -313,12 +313,11 @@ body{
     text-align: center;
   }
   #SpecialMenu .box {
-    background: hsl(0, 0%, 8%);
-    border-radius: 3%;
+    background: #000000;
     padding: 20px;
   }
   #SpecialMenu .box .box-img-one {
-    background: url("image_menu/08.jpeg") no-repeat center;
+    background: url("../image_menu/08.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -340,7 +339,7 @@ body{
     margin-bottom: 75px;
   }
   #SpecialMenu .box .box-img-three {
-    background: url("image_menu/04.jpeg") no-repeat center;
+    background: url("../image_menu/04.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -355,7 +354,7 @@ body{
     position: absolute;
     bottom: 0;
     margin: 0 auto;
-    font-family: Noto Sans Thai, sans-serif;
+    font-family: "Rozha One", serif;
     font-size: 1.5rem;
     background: #ffffff;
     height: 90px;
@@ -372,12 +371,12 @@ body{
   #SpecialMenu .box .title {
     display: block;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
   }
   #SpecialMenu .box .details {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-align: center;
     line-height: 1.8;
     margin: 30px 0px;
@@ -406,7 +405,7 @@ body{
     padding: 10px 20px;
     border: 2px solid #ffffff;
     border-radius: 20px;
-    font-family: Noto Sans Thai, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
@@ -440,36 +439,38 @@ body{
       background-color: #fff;
   }
 
-  .map{
-    text-align: center;
-  }
-
 
 
   
 .fixed-image {
-    background: url("image_menu/01.jpeg") fixed center;
+    background: url("../image_menu/01.jpeg") fixed center;
     background-size: cover;
     height: 300px;
     text-align: center;
 
 }
 .text h1{
-    padding: 140px;
+    padding: 90px;
     letter-spacing: 20px;
 }
 
 
 footer{
-    padding: 15px;
-    background-color: hsl(0, 0%, 9%);
-    text-align: center;
+	background-color: hsl(0, 0%, 9%);
+  text-align: center;
 
 }
 
 footer img{
     height: 40px;
     width: auto;
+}
+
+.customnav{
+  background-color: #D31010;
+
+  padding: 5px 20px;
+  border-radius: 50px;
 }
 
 /* #Media
@@ -560,27 +561,13 @@ footer img{
     .carousel-item img {
         height: 700px;
       }
-
-      iframe{
-        width: 1000px;
-        height: 400px;
-      }
 }
-
-
 @media screen and (max-width: 1024px) { 
     .head{
         width: 50%;
         top: 20%;
         margin-left: 26%;
         text-align: center;
-    }
-    iframe{
-      width: 980px;
-      height: 400px;
-    }
-    .recipes .image {
-      background-image: url(image_menu/02.jpeg);
     }
 }
 
@@ -612,34 +599,8 @@ footer img{
     .carousel-item img {
         height: 500px;
       }
-      iframe{
-        width: 750px;
-        height: 300px;
-      }
-      .text h1{
-        font-size: 28px;
-      }
-      .recipes .image {
-        background-image: url(image_menu/02.jpeg);
-      }
-    
+
 }
-
-
-
-@media screen and (max-width: 800px) { 
-  .head{
-      width: 40%;
-      top: 18%;
-      margin-left: 30%;
-      text-align: center;
-  }
-  iframe{
-    width: 680px;
-    height: 300px;
-  }
-}
-
 
 @media screen and (max-width: 699px) { 
     .head{
@@ -677,38 +638,30 @@ footer img{
     .carousel-item img {
         height: 400px;
       }
-      iframe{
-        width: 600px;
-        height: 200px;
-      }
-      .text h1{
-        font-size: 26px;
-      }
 }
-
 
 @media screen and (max-width: 499px) { 
     .head{
         width: 50%;
-        top: 12%;
+        top: 13%;
         margin-left: 26%;
         text-align: center;
     }
     .head img{
         width: auto;
-        height: 60px;
+        height: 70px;
     }
 
     .head h1{
-        font-size: 6px;
+        font-size: 12px;
     }
 
     .custom-btn{
         border: 1px solid;
         padding: 2px 5px;
         height: 20px;
-        width: 80px;
-        font-size: 7px;
+        width: 90px;
+        font-size: 10px;
     }
     .carousel-inner{
         height: 100%;
@@ -722,39 +675,142 @@ footer img{
     }
 
     .carousel-item img {
-        height: 330px;
+        height: 350px;
       }
+    .comp-title{
+      font-size: 16px;
+    }
+    .h2, h2{
+      font-size: 10px;
+    }
+    p{
+      font-size: 14px;
+    }
 
-    iframe{
-      width: 450px;
-      height: 200px;
+    .quote{
+      font-size: 14px;
+    }
+
+    #OurStory .video-img{
+      height: 300px;
+      width: auto;
+    }
+
+    .recipes .image{
+      width: 100%;
+      background-image: url(../image_menu/08.jpeg);
+      background-size: cover;
+    }
+    #SpecialMenu h3,#review h3{
+      font-size: 23px;
     }
     .text h1{
-      font-size: 26px;
-      letter-spacing: 5px;
-
+      font-size: 20px;
     }
+
+    .fixed-image{
+      background-size: cover;
+      height: 200px;
+      background-image: url(../image_menu/02.jpeg);
+    }
+    iframe{
+      text-align: center;
+      width: 100%;
+    }
+    .details .name{
+      font-size: 15px;
+    }
+    .details p, .details .descript{
+      font-size: 10px;
+    }
+    .details .pro{
+      width: 30px;
+    }
+    #review .swiper-slide .card{
+      width: 50%;
+    }
+    
+}
+
+.comp-title, h3 {
+  padding-bottom: 25px;
+  letter-spacing: 8px;
+  text-align: center;
 
 }
 
+/* review */
+
+#review{
+  position: relative;  
+  height: 400px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.swiper{
+  width: 950px;
+}
+
+.card{
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px 0px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px 10px;
+  position: relative;
+}
+.details{
+  color: #000;
+  text-align: center;
+}
+.name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.descript{
+  font-size:15px;
+  font-weight: 500;
+  text-align: left;
+}
+.details p{
+  text-align: right;
+  color: #5d5d5d;
+}
 
 
-@media screen and (max-width: 399px) { 
+.swiper-pagination{
+  position: absolute;
+}
 
-    .carousel-item img {
-        height: 280px;
-      }
-      iframe{
-        width: 360px;
-        height: 200px;
-      }
-      .text h1{
-        font-size: 18px;
-        letter-spacing: 2px;
-  
-      }
-      .carousel-item img {
-        height: 320px;
-      }
+.swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
 
+.swiper-button-next .swiper-button-prev{
+  opacity: 0.7;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: #750303;
+}
+
+
+:root {
+  --swiper-navigation-color: red;
+  --swiper-pagination-color: red;
 }
