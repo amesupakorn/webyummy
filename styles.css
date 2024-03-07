@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Roboto+Mono&display=swap');
 
 
 html{
@@ -221,14 +222,19 @@ body{
 
 #OurStory {
     padding: 100px 0;
+    font-size: 18px;
   }
+
+#OurStory .comp-title{
+    letter-spacing: 8px;
+
+}
   #OurStory .quote {
     color: #ADADAD;
-    margin: 0.5rem 0 3rem;
+    margin: 0.5rem 1rem;
   }
   #OurStory .quote strong {
     color: #202020;
-    font-style: italic;
     font-weight: 700;
   }
   #OurStory .reserve-btn {
@@ -247,9 +253,9 @@ body{
     color: #202020;
   }
   #OurStory .video-img {
-    max-width: 400px;
+    max-width: 450px;
     height: 550px;
-    background: url("https://github.com/kenvantruong/hyper-restaurant/blob/master/public/img/Springtime-Chicken-Noodle-Pho-1.jpg?raw=true") no-repeat center;
+    background: url("../image_menu/20.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -286,7 +292,8 @@ body{
 
   .recipes .image {
 
-    height: 200px;
+    height: 150px;
+    width: 100%;
     background: url("image_home/4.png") fixed center;
     background-size: cover;
 }
@@ -310,7 +317,7 @@ body{
     padding: 20px;
   }
   #SpecialMenu .box .box-img-one {
-    background: url("image_menu/08.jpeg") no-repeat center;
+    background: url("../image_menu/08.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -332,7 +339,7 @@ body{
     margin-bottom: 75px;
   }
   #SpecialMenu .box .box-img-three {
-    background: url("image_menu/04.jpeg") no-repeat center;
+    background: url("../image_menu/04.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -436,26 +443,34 @@ body{
 
   
 .fixed-image {
-    background: url("image_menu/01.jpeg") fixed center;
+    background: url("../image_menu/01.jpeg") fixed center;
     background-size: cover;
     height: 300px;
     text-align: center;
 
 }
 .text h1{
-    padding: 140px;
+    padding: 90px;
     letter-spacing: 20px;
 }
 
 
 footer{
-    text-align: center;
+	background-color: hsl(0, 0%, 9%);
+  text-align: center;
 
 }
 
 footer img{
     height: 40px;
     width: auto;
+}
+
+.customnav{
+  background-color: #D31010;
+
+  padding: 5px 20px;
+  border-radius: 50px;
 }
 
 /* #Media
@@ -628,25 +643,25 @@ footer img{
 @media screen and (max-width: 499px) { 
     .head{
         width: 50%;
-        top: 10%;
+        top: 13%;
         margin-left: 26%;
         text-align: center;
     }
     .head img{
         width: auto;
-        height: 60px;
+        height: 70px;
     }
 
     .head h1{
-        font-size: 6px;
+        font-size: 12px;
     }
 
     .custom-btn{
         border: 1px solid;
         padding: 2px 5px;
         height: 20px;
-        width: 80px;
-        font-size: 7px;
+        width: 90px;
+        font-size: 10px;
     }
     .carousel-inner{
         height: 100%;
@@ -660,16 +675,50 @@ footer img{
     }
 
     .carousel-item img {
-        height: 300px;
+        height: 350px;
       }
+    .comp-title{
+      font-size: 16px;
+    }
+    .h2, h2{
+      font-size: 10px;
+    }
+    p{
+      font-size: 14px;
+    }
+
+    .quote{
+      font-size: 14px;
+    }
+
+    #OurStory .video-img{
+      height: 300px;
+      width: auto;
+    }
+
+    .recipes .image{
+      width: 100%;
+      background-image: url(../image_menu/08.jpeg);
+      background-size: cover;
+    }
+    #SpecialMenu h3{
+      font-size: 23px;
+    }
+    .text h1{
+      font-size: 20px;
+    }
+
+    .fixed-image{
+      background-size: cover;
+      height: 200px;
+      background-image: url(../image_menu/02.jpeg);
+    }
+    iframe{
+      text-align: center;
+      width: 100%;
+    }
 
 }
 
 
 
-@media screen and (max-width: 399px) { 
-
-    .carousel-item img {
-        height: 280px;
-      }
-}
