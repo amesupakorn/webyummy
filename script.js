@@ -1,3 +1,4 @@
+/* Please ❤ this if you like it! */
 
 
 (function($) { "use strict";
@@ -25,7 +26,6 @@
 				},1);
 			}
 	});	
-
-
-
+	
+	
   })(jQuery);

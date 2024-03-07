@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="png" sizes="96x96" href="../image_logo/favicon.ico" />
+    <link rel="icon" type="png" sizes="96x96" href="image_logo/favicon.ico" />
     <link href="styles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="style.css">
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -19,7 +19,7 @@
 <?php
      session_set_cookie_params(0);
 	 session_start();
-	 include('../connectDatabase/connectToDatabase.php');
+	 include('connectDatabase/connectToDatabase.php');
 
 	 $conn = new database();  
 
@@ -36,7 +36,7 @@
 				<div class="col-12">
 				<nav class="navbar navbar-expand-md navbar-light">
 					
-					<a class="navbar-brand" ><img src="../image_logo/logotab2.png" alt=""></a>	
+					<a class="navbar-brand" ><img src="image_logo/logotab2.png" alt=""></a>	
 					
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -45,19 +45,19 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto py-4 py-md-0" style="text-align: center;" >
 							<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-								<a class="nav-link" href="../home/index.php">หน้าหลัก</a>
+								<a class="nav-link" href="index.php">หน้าหลัก</a>
 							</li>
 							<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-								<a class="nav-link" href="../menuorder/menu.php">รายการอาหาร</a>
+								<a class="nav-link" href="menuorder/menu.php">รายการอาหาร</a>
 							</li>
 							<?php
 							if(!isset($_COOKIE['tableId'])) {
 								echo '<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-										<a class="nav-link" href="../reserve/reserve.php">จองโต๊ะ</a>
+										<a class="nav-link" href="reserve/reserve.php">จองโต๊ะ</a>
 									</li>';
 							}else{
 								echo '<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-								<a class="nav-link" href="../Check_status/index.php">สถานะออเดอร์ของฉัน</a>
+								<a class="nav-link" href="Check_status/index.php">สถานะออเดอร์ของฉัน</a>
 							</li>';
 							}
 							?>
@@ -111,10 +111,10 @@
 	  </div>
     
       <div class="head">
-        <img src="../image_logo/logotab.png" alt="">
+        <img src="image_logo/logotab.png" alt="">
         <h1>KOREAN RESTAURANT</h1>
-        <a href="../menuorder/menu.php"><button class="custom-btn btn-11">รายการอาหาร</button></a>
-		<a href="../reserve/index.php"><button class="custom-btn btn-11">จองโต๊ะ</button></a>
+        <a href="menuorder/menu.php"><button class="custom-btn btn-11">รายการอาหาร</button></a>
+		<a href="reserve/index.php"><button class="custom-btn btn-11">จองโต๊ะ</button></a>
 
       </div>
 
@@ -160,7 +160,7 @@
 				<div class="price-circle">139 ฿</div>
 				</div>
 				<span class="title">บูแดจิเก (부대찌개)</span>
-				<p class="details">ข้างล่างรองผักกาดขาวก่อน แล้วก็เอาพวกเห็ดเข็มทอง แครอท ไส้กรอก ปูอัด สันคอหมู เต้าหู้อ่อน มาเรียงกันรอบๆ แล้วจึงเอามาม่าวางตรงกลาง ใส่น้ำครึ่งหม้อ</p>
+				<p class="detailmenu">ข้างล่างรองผักกาดขาวก่อน แล้วก็เอาพวกเห็ดเข็มทอง แครอท ไส้กรอก ปูอัด สันคอหมู เต้าหู้อ่อน มาเรียงกันรอบๆ แล้วจึงเอามาม่าวางตรงกลาง ใส่น้ำครึ่งหม้อ</p>
 			  </div>
 			</div>
 			<div class="col-md-4">
@@ -169,7 +169,7 @@
 				<div class="price-circle">129 ฿</div>
 				</div>
 				<span class="title">ต๊อกบกกี (떡볶이)</span>
-				<p class="details">นำคาแรต็อก ไปผัดกับซอสเกาหลีสีแดง มีรสชาติเผ็ด หวาน อร่อย มีเอกลักษณ์พร้อมใส่ปลาแผ่น และผักเล็กน้อย ซึ่งในบางร้านจะใส่ไข่ต้มหรือเส้นรามยอนลงไปอีกด้วย</p>
+				<p class="detailmenu">นำคาแรต็อก ไปผัดกับซอสเกาหลีสีแดง มีรสชาติเผ็ด หวาน อร่อย มีเอกลักษณ์พร้อมใส่ปลาแผ่น และผักเล็กน้อย ซึ่งในบางร้านจะใส่ไข่ต้มหรือเส้นรามยอนลงไปอีกด้วย</p>
 			  </div>
 			</div>
 			<div class="col-md-4">
@@ -178,7 +178,7 @@
 				<div class="price-circle">109 ฿</div>
 				</div>
 				<span class="title">จาจังมยอน (짜장면)</span>
-				<p class="details">บะหมี่ดำเกาหลี ใช้เส้นบะหมี่แบบหนาคล้ายเส้นอุด้ง คลุกเคล้าด้วยซอสที่ทำจากเต้าเจี้ยว ถั่วดำหมัก ผัดกับเนื้อหมูหั่นและผัก จาจังมยอนเป็นอาหารที่บอกถึงความโสด</p>
+				<p class="detailmenu">บะหมี่ดำเกาหลี ใช้เส้นบะหมี่แบบหนาคล้ายเส้นอุด้ง คลุกเคล้าด้วยซอสที่ทำจากเต้าเจี้ยว ถั่วดำหมัก ผัดกับเนื้อหมูหั่นและผัก จาจังมยอนเป็นอาหารที่บอกถึงความโสด</p>
 			  </div>
 			</div>
 		  </div>
@@ -186,7 +186,7 @@
 		  <div style="height: 30px;"></div>
 
 		  <div class="btncenter">
-			<a href="../menuorder/menu.php"><button class="custom-btn2 btn-2">ดูรายการอาหาร</button></a>
+			<a href="menuorder/menu.php"><button class="custom-btn2 btn-2">ดูรายการอาหาร</button></a>
 		  </div>
 
 		</div>
@@ -277,7 +277,7 @@
 		<div>
 			<p>หน้าหลัก | รายการอาหาร | จองโต๊ะ | รีวิวจากลูกค้า</p>
 		</div>
-			<img src="../image_logo/logotab.png" alt="">
+			<img src="image_logo/logotab.png" alt="">
 			<div style="height: 30px;"></div>
 		<div class="copyright">
 			&copy; OHYUMMY 2024
